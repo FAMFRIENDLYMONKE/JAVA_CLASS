@@ -1,0 +1,9 @@
+
+Enter Size of array: 5
+Enter: 1
+Enter: 3
+Enter: 5
+Enter: 7
+Enter: 9
+Enter item to find :2
+Not Found
