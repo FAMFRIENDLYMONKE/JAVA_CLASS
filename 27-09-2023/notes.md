@@ -130,6 +130,56 @@ ob.a = ob1.a;
 ob.b = ob1.b;
 ob.c = ob1.c;
 */
-
-
 ```
+
+# PACKAGE
+> * It is the collection of classes.
+> * You can compare it to the Header file in **C** language.
+
+### ADVANTAGES  
+* CODE REUSABILITY 
+
+There are 2 Types of Packages:
+1. Built-in Packages
+2. User Defined Packages
+
+> Users are allowed to design packages provided it meets the conditions defined in standard manual.
+
+
+Packages must be in the proper path. So, path setup is mandatory for proper functioning of a package.
+
+### BUILT-IN PACKAGES
+Some built-in packages are:  
+```java.lang.*``` : it is responsible for internall definition of JAVA
+```java.util.*``` : it is the utilities package that contains useful classes like Scanner, StringBuilder, StringTokeniser;
+```java.io.*```   : It provides input/output streams manipulation functions.
+
+**IMPORTING A PACKAGE**  
+Files are imported using **import** keyword.
+
+```import java.util.*;```  
+
+Jayashree.java
+```
+public class X{
+    method1(){}
+    method2(){}
+    //data and other methods
+}
+```
+javac Jayashree.java  
+jayashree.class
+
+now in Y.java
+```
+import Jayashree.X;
+
+public class Y{
+    public static void main(String args[]){
+        X ob = new X();
+        ob.method1();
+        ob.method2();
+    }
+}
+```
+
