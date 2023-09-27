@@ -35,5 +35,7 @@ class Prog2{
             System.out.println("Found");
         else
             System.out.println("Not Found");
+        
+            sc.close();
     }
 }

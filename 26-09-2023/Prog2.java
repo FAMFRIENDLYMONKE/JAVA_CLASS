@@ -1,5 +1,4 @@
 //wap to implement linear search prog using array of object concept;
-
 import java.util.Scanner;
 
 class Sample{
