@@ -60,7 +60,8 @@ char                        Character
 **EXAMPLE**
 ```java
 Integer a = 6; //here a is an object not a variable
-Integer a = new Integer(5);
+//primitive assigned to object
+Integer a = new Integer(5); // statement 1 is implicitly equal to this
 ```
 
 ### UNBOXING
@@ -87,5 +88,6 @@ Integer a = new Integer(5);
 * ```static String toString(int a)```: int to String
 * ```static int parseInt(String s)```: used to convert String to s
 * ```static int reverse(int) a```: The number is returned in 2 complement form in decimal form
-* ```static int numberofleadingzeroes()```: 
+* ```static int numberofleadingzeroes()```:
+* ```static int numberOfLeadingZeroes()```
 * ```int hashCode()```
